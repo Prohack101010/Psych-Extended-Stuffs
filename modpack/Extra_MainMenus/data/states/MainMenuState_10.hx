@@ -306,7 +306,7 @@ function update(elapsed:Float)
 						MusicBeatState.switchState(new ModsMenuState());
 					#end
 					#if ACHIEVEMENTS_ALLOWED
-					case 'awards':
+					case 'achievements':
 						MusicBeatState.switchState(new AchievementsMenuState());
 					#end
 					case 'credits':
